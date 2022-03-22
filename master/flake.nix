@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-faststreams-master.flake = false;
+  inputs.src-faststreams-master.ref   = "refs/heads/master";
   inputs.src-faststreams-master.owner = "status-im";
-  inputs.src-faststreams-master.ref   = "master";
   inputs.src-faststreams-master.repo  = "nim-faststreams";
   inputs.src-faststreams-master.type  = "github";
   
