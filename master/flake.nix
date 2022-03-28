@@ -11,7 +11,6 @@
   inputs.src-faststreams-master.ref   = "refs/heads/master";
   inputs.src-faststreams-master.owner = "status-im";
   inputs.src-faststreams-master.repo  = "nim-faststreams";
-  inputs.src-faststreams-master.dir   = "";
   inputs.src-faststreams-master.type  = "github";
   
   inputs."stew".owner = "nim-nix-pkgs";
